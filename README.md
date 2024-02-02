@@ -1,7 +1,7 @@
 # Diabetes Prediction Using Machine Learning(Python)
 In this project, I've taken a dataset from Kaggle based upon diabetes prediction. After checking outliers and null values in the dataset proper reduction is done. Using Random Forest Model I've checked important feature and then make a final dataset. Then I've trained 4 models(KNN, Decision Tree, Naive Bayes, Logistic Regression). Compared the accuracy and implemented the User Interface using the most accurate model.
 
-![]([https://github.com/Subhajit-Ghatak/diabetes_prediction_ML_webApp/blob/master/images/banner.png?raw=true](https://github.com/Saurabh-T-Deoghar/diabetets-prediction-machine-learning/blob/main/banner.png?raw=true))
+![](https://github.com/Saurabh-T-Deoghar/diabetets-prediction-machine-learning/blob/main/banner.png?raw=true)
 
 ---
 ####
@@ -49,7 +49,7 @@ In this project, I've taken a dataset from Kaggle based upon diabetes prediction
 ### Outliers Removal: Using Z-Score method
 ``` sns.histplot(ax=axes[0],data=having_outliers) sns.histplot(ax=axes[1],data=no_outliers) ```
 
-![](https://github.com/Subhajit-Ghatak/diabetes_prediction_ML_webApp/blob/master/images/outliers.png?raw=true)
+![](https://github.com/Saurabh-T-Deoghar/diabetets-prediction-machine-learning/blob/main/outliers.png?raw=true)
 ####
 ### Feature Importance: Using Random Forest
 ####
@@ -71,7 +71,7 @@ In this project, I've taken a dataset from Kaggle based upon diabetes prediction
 |LR|  0.7794117647058824|
 |DTree|  0.7549019607843137|
 
-![](https://github.com/Subhajit-Ghatak/diabetes_prediction_ML_webApp/blob/master/images/accuracy.png?raw=true)
+![](https://github.com/Saurabh-T-Deoghar/diabetets-prediction-machine-learning/blob/main/accuracy.png?raw=true)
 ### Saving Model: Gaussian Naive Bayes
 ``` 
 import pickle
